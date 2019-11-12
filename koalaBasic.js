@@ -10,8 +10,6 @@ const term = cp.exec('echo OK', (err, stdout, stderr)=>{
     }
 })
 
-var okok = require('printOk.js')
-
 function term() {
 
     try{
