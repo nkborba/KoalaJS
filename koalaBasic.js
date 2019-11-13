@@ -1,19 +1,10 @@
-const { BrowserWindow, app } = require('electron')
-const { cp } = require('child_process')
-
-const term = cp.exec('echo OK', (err, stdout, stderr)=>{
-    if(err){
-        return err
-    }
-    else {
-        return stdout
-    }
-})
-
 function term() {
+    var cmd = require('child_process')
+    var result = cmd.execSync('adb devices').toString()
+    console.log(result)
 
     try{
-            document.getElementById('um').innerHTML = 'NOK'
+            document.getElementById('um').innerHTML = result
     }
     catch (err) {
         document.getElementById('um').innerHTML = err
@@ -23,7 +14,7 @@ function term() {
 
 
 function alerta() {
-
+    console.log('AAA')
     document.getElementById("um").innerHTML = "OK";
 
 }
