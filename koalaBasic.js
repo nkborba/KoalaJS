@@ -11,8 +11,6 @@ function term() {
     }
 }
 
-
-
 function alerta() {
     console.log('AAA')
     document.getElementById("um").innerHTML = "OK";
