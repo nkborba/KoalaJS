@@ -7,13 +7,12 @@ const { BrowserWindow, app, Tray } = require ('electron')
 // MyTitleBar.updateTitle('KOALA - You\'re KOALified ');
 
 function createWindow () {
-    const appIcon = new Tray(__dirname+'/koalaicon_15.png')
     win = new BrowserWindow({
         width: 800,
         height:600,
         resizable:false,
         frame: false,
-        icon: __dirname+"/koalaicon_15.png",
+        icon: __dirname+"/src/images/koalaicon_15.png",
 
         webPreferences: {
             nodeIntegration: true

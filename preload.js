@@ -1,21 +1,14 @@
 const path = require('path')
 const customTitlebar = require('custom-electron-titlebar');
-const { remote } = require('electron')
+const { remote, shell } = require('electron')
 const { Menu, MenuItem } = remote
-const url = require('url') 
 
-// const iconUrl = url.format({
-//     pathname: path.join(__dirname, 'src/images/koalaicon_15.png'),
-//     protocol: 'file:',
-//     slashes: true
-// })
+const iconPath = "src/images/koalaicon_15.png";
 
 const tibleBar = new customTitlebar.Titlebar({
     backgroundColor: customTitlebar.Color.fromHex('#2c3e50'),
-    icon: "/koalaicon_15.png"
+    icon: iconPath,
 });
-
-// console.log(path.resolve(__dirname, "src", "images", "koalaicon_15.png"))
 
 const menu = new Menu()
 
@@ -24,7 +17,7 @@ menu.append(new MenuItem({
     submenu: [
         {
             label: 'Denis',
-            click: () => console.log('Teste')
+            click: () => shell.openExternal('https://github.com/denisvba')
         },
         {
             label: 'Lucas',
@@ -32,11 +25,12 @@ menu.append(new MenuItem({
         },
         {
             label: 'Nicholas',
-            click: () => console.log('Teste')
+            click: () => shell.openExternal("https://www.github.com/nkborba")
         }
     ]
 }))
 
 
 tibleBar.updateMenu(menu)
-tibleBar.updateIcon('koalaicon_15.png')
+tibleBar.updateIcon("src/images/koalaicon_15.png")
+tibleBar.updateTitle("KOALA - You're Koalified")

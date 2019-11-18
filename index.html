@@ -3,19 +3,94 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/stylishKoala.css">
-    <title>KoalaJS</title>
+    <link rel="stylesheet" type="text/css" href="src/style/stylishKoala.css">
+    <script src="https://kit.fontawesome.com/1cf72d3f18.js" crossorigin="anonymous"></script>
+    <title>KoalaJS - Android Test Tool</title>
 </head>
 
 <body>
+
     <div class="container">
-        <input type="text" name="pol" id="pol">
-        <div id="cm"></div>
-        <button onclick="term()" class="koalaButton">Koala!</button>
-        <button onclick="alerta()" class="koalaButton">Koala!</button>
+
+        <aside class="panelLeft">
+
+            <ul class="textBold">
+                <li onclick="term()">
+                    <div class="vertical-btn ">
+                        <i class="icon-android icon-li"></i>
+                        <span>Device Info</span>
+                    </div>
+                </li>
+                <li onclick="bootloader()">
+                    <div class="vertical-btn">
+                        <i class="icon-android icon-li"></i>
+                        <span>Bootloader</span>
+                    </div>
+                </li>
+                <li onclick="cleardata()">
+                    <div class="vertical-btn">
+                        <i class="icon-android icon-li"></i>
+                        <span>Clear Data</span>
+                    </div>
+                </li>
+                <li onclick="history()">
+                    <div class="vertical-btn">
+                        <i class="icon-android icon-li"></i>
+                        <span>History</span>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- <button onclick="term()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">Device Info</div>
+                </div>
+            </button>
+
+            <button onclick="bootloader()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">Bootloader</div>
+                </div>
+            </button>
+
+            <button onclick="cleardata()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">Clear Data</div>
+                </div>
+            </button>
+
+            <button onclick="history()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">History</div>
+                </div>
+            </button> -->
+
+        </aside>
+
+        <aside class="panelRight">
+            <p id="um"></p>
+            <!-- <button onclick="history()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">History</div>
+                </div>
+            </button>
+
+            <button onclick="cleardata()" class="koalaButton">
+                <div class="btnContainer">
+                    <i class="icon-android"></i>
+                    <div class="btnText">Clear Data</div>
+                </div>
+            </button> -->
+        </aside>
+
     </div>
 
-    <p id="um"></p>
+
 
     <script type="text/javascript" src="preload.js"></script>
     <script type="text/javascript" src="koalaBasic.js"></script>
