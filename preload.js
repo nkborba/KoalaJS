@@ -21,7 +21,7 @@ menu.append(new MenuItem({
         },
         {
             label: 'Lucas',
-            click: () => console.log('Teste')
+            click: () => shell.openExternal('https://github.com/lucashtrinquinato')
         },
         {
             label: 'Nicholas',
