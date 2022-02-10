@@ -1,12 +1,12 @@
 {
   "name": "koalajs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nice companion tool for mobile QA process",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "",
+  "author": "@nkborba, @lucashtrinquinato, @denisvba",
   "license": "ISC",
   "devDependencies": {
     "electron": "^7.1.1"
