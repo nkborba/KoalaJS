@@ -1,6 +1,6 @@
 {
   "name": "koalajs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Nice companion tool for mobile QA process",
   "main": "main.js",
   "scripts": {
