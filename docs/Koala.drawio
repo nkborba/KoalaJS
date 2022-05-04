@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2022-05-04T23:13:03.360Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="_EUHu-1c8XnwYLVOMvQZ" version="18.0.0" type="github">
+  <diagram id="b0tQal1B2h0ebxtxo28B" name="Page-1">
+    <mxGraphModel dx="1523" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QVCoFILbUYH5SOA0yykW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-1" target="QVCoFILbUYH5SOA0yykW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-1" value="Logs on celery?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-2" target="QVCoFILbUYH5SOA0yykW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-2" value="FastAPI commands localhost middleware" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-3" target="QVCoFILbUYH5SOA0yykW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-3" target="QVCoFILbUYH5SOA0yykW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-3" value="python adb commands lib" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-4" value="Electron front-end" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-6" target="QVCoFILbUYH5SOA0yykW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-6" value="History on celery?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVCoFILbUYH5SOA0yykW-11" target="QVCoFILbUYH5SOA0yykW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVCoFILbUYH5SOA0yykW-11" value="FastAPI logs localhost middleware" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
