@@ -9,7 +9,7 @@
   "author": "@nkborba, @lucashtrinquinato, @denisvba",
   "license": "ISC",
   "devDependencies": {
-    "electron": "17.0.0"
+    "electron": "18.3.7"
   },
   "dependencies": {
     "custom-electron-titlebar": "^3.1.0",
